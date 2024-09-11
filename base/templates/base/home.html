@@ -1,0 +1,91 @@
+<!-- {% load static %}
+<link rel="stylesheet" href="{% static '/css/main.css' %}" type="text/css">
+
+<h3>hello world!</h3>
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolva Mashale</title>
+    <link rel="stylesheet" href="{% static '/css/main.css' %}" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    {% load static %}
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/IMG_8944.jpg'%}" alt="">
+                    <hr>
+                    <h4>Hi, I'm Rolva!</h4>
+                    <p>I love Coding, doing research and collaborating</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>From "Hello World" to Real-World Solutions</h4>
+                    <hr>
+                    <p>In 2019, during my studies at the University of Limpopo, I wrote my first "Hello World" program. It seemed simple, but it marked the start of my journey into coding. Over time, what began as basic coding tasks turned into a passion for building solutions that could make a real impact.</p>
+                    <p>After gaining skills in Data Science, Software Development, and App Development, I worked on improving a variety of projects, from banking apps at ABSA Bank to cloud computing at Zensar Technologies. With every challenge I faced—whether it was debugging code or optimizing mobile apps—I learned the value of persistence and the ability to solve complex problems.</p>
+                    <p>Now, with years of experience and continuous learning, I’m committed to developing real-world solutions that make a difference, whether through software development or data-driven insights.</p>
+    
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/facebook.jpeg' %}" alt=""></li>
+                        <li><img class="social" src="{% static 'images/linkedin.png' %}" alt=""></li>
+                        <li><img class="social" src="{% static 'images/twitter.png' %}" alt=""></li>
+                        <li><img class="social" src="{% static 'images/youtube.png' %}" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Experience as a Developer</h5>
+                    <hr>
+                    <p>Over the past few years, my journey as a developer has taken me through a diverse set of challenges and opportunities. From my time at the University of Limpopo, where I gained a solid foundation in Computer Science and Statistics, to real-world experience at ABSA Bank, Zensar Technologies, and various personal projects, I've built and optimized applications that solve real-world problems.</p>
+                    <p>At ABSA, I had the chance to contribute to iOS banking app features, ensuring a smooth and secure user experience. Working at Zensar as a Cloud Computing Trainee allowed me to dive into cloud-based solutions, collaborating on projects that leveraged Azure services. Each experience has pushed me to grow, both as a developer and a problem solver.</p>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+                    <hr>
+                    <p>I am skilled in a variety of programming languages and frameworks, including Swift, Objective-C, Python, SQL, and JavaScript. My expertise spans across mobile app development (particularly iOS), cloud computing, and data science. I am proficient in tools like Git, Microsoft Azure, Core Data, and frameworks like SwiftUI and UIKit.</p>
+                    <p>I also have a strong foundation in data science, having worked extensively with Python libraries such as pandas, NumPy, TensorFlow, and scikit-learn. My experience in machine learning allows me to integrate AI solutions into mobile applications. Whether it's building algorithms or designing user-friendly interfaces, I focus on delivering high-quality, efficient solutions.</p>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How I Learn</h5>
+                    <hr>
+                    <p>I am constantly learning, whether through formal education or hands-on projects. After completing my Bachelor of Science degree, I pursued certifications in data science, software development, and app development. I’m currently enrolled in an Honours degree program in Computing, where I’m deepening my expertise in Applied Data Science.</p>
+                    <p>Beyond formal education, I engage in self-directed learning through platforms like Udemy, Coursera, and DataCamp. My curiosity pushes me to stay updated on the latest industry trends and technologies, allowing me to continuously evolve as a developer. I believe that learning is a never-ending journey, and I am always excited to tackle new challenges.</p>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Short-Term Goal</h5>
+                    <hr>
+                    <p>In the short term, my primary goal is to transition into a full-time software development role where I can apply my skills in mobile app development, cloud computing, and data science to create impactful solutions. I’m particularly focused on advancing my expertise in iOS app development and expanding my knowledge of cloud platforms like Microsoft Azure.</p>
+                    <p>Additionally, I aim to bring one of my personal projects—a mobile app focused on mental health support—to life. I see this as an opportunity not only to grow as a developer but also to contribute to addressing important social challenges through technology.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
